@@ -1,0 +1,27 @@
+001000   10 RECORD-HEADER.
+001010      20 RECORD-TYPE                      PIC 99.                 1-2
+001020      20 DATE                             PIC 9(8).               3-10
+001030      20 STOCK-TYPE                       PIC X(2).               11-12
+001040      20 TICKET-CODE                      PIC X(12).              13-24
+001050      20 MARKET-TYPE                      PIC N(3).               25-27
+001060      20 SHORT-NAME                       PIC X(12).              28-39
+001070      20 TICKET-CLASS                     PIC X(10).              40-49
+001080      20 DAYS-VEST                        PIC X(3).               50-52
+001090      20 CURRENCY                         PIC X(4).               53-56
+001100      20 OPENING-PRICE                    PIC S99999999999V9(2).  57-69
+001110      20 MAX-PRICE                        PIC S9(11)V99.          70-82
+001120      20 MIN-PRICE                        PIC S99999999999V99.    83-95
+001130      20 AVERAGE-PRICE                    PIC S9(11)V9(2).        96-108
+001140      20 CLOSE-PRICE                      PIC S9(11)V9(2).        109-121
+001150      20 BEST-BUYING-OFFER                PIC S9(11)V9(2).        122-134
+001160      20 BEST-SELLING-OFFER               PIC S9(11)V9(2).        135-147
+001170      20 DEALS                            PIC 9(5).               148-152
+001180      20 SHARE-NUMBERS                    PIC 9(18).              153-170
+001190      20 VOLUME                           PIC S9(16)V9(2).        171-188
+001200      20 EXERCISE-PRICE                   PIC S9(11)V9(2).        189-201
+001210      20 CORRECTION-CODE                  PIC 9(1).               202-202
+001220      20 EXPIRATION-DATE                  PIC 9(8).               203-210
+001230      20 ADJUST-FACTOR                    PIC 9(7).               211-217
+001240      20 EXERCISE-PRICE-POINTS            PIC S9(7)V9(6).         218-230
+001250      20 ISIN-CODE                        PIC X(12).              231-242
+001260      20 SEQUENCE-NUMBER                  PIC 9(3).               243-245
